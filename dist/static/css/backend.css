@@ -1,0 +1,46 @@
+/** hellfsd fasdff sd sf sdf sdf sdffsfsd fo **/
+@font-face {
+  font-family: FontAwesome;
+  src: url('../fonts/fontawesome-webfont.woff2') format('woff2'), url('../fonts/fontawesome-webfont.woff') format('woff'), url('../fonts/fontawesome-webfont.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url(../fonts/glyphicons-halflings-regular.eot);
+  src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg');
+}
+@font-face {
+  font-family: 'WorkSans-Black';
+  src: url('../fonts/WorkSans-Black.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'WorkSans-Bold';
+  src: url('../fonts/WorkSans-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'WorkSans-ExtraBold';
+  src: url('../fonts/WorkSans-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'WorkSans-ExtraLight';
+  src: url('../fonts/WorkSans-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'WorkSans-Light';
+  src: url('../fonts/WorkSans-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'WorkSans-Medium';
+  src: url('../fonts/WorkSans-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'WorkSans-Regular';
+  src: url('../fonts/WorkSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'WorkSans-SemiBold';
+  src: url('../fonts/WorkSans-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'WorkSans-Thin';
+  src: url('../fonts/WorkSans-Thin.ttf') format('truetype');
+}

@@ -1,0 +1,5 @@
+.idea
+.DS_Store
+data/write
+main
+embed/bindata.go

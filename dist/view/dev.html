@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/static/img/linux_logo.png"/>
+
+    <link href="/static/css/worksans.css" rel="stylesheet">
+    <script src="/static/js/jquery-3.2.1.min.js"></script>
+    <script src="/static/js/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/bootstrap-theme.min.css">
+    <script src="/static/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/static/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/static/js/global.js"></script>
+    <link type="text/css" rel="stylesheet" href="/static/css/backend.css">
+
+    <title>Proxeus</title>
+</head>
+<body>
+
+<button id="myButton" type="button" class="btn btn-default">Click me</button>
+
+<script type=text/javascript>
+    $("#myButton").click(function(){
+        $.ajax({
+            type: "GET",
+            url: "/btn",
+            success: function (data) {
+                console.log(data);
+            },
+            error: function (data) {
+                console.log(data);
+            }
+        });
+    })
+</script>
+
+checkout:
+<a target="_blank" href="https://getbootstrap.com/docs/3.3/components/#btn-groups" >Bootstrap CSS</a>
+</body>
+</html>
+
