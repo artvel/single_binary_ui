@@ -62,7 +62,7 @@ func New(conf *Config) {
 	gitRedirectHTTPToSSH(targetDomain)
 	goSrcPath = goPath + string(os.PathSeparator) + "src" + string(os.PathSeparator)
 	ensureBindataExists()
-	tmpDir, err := ioutil.TempDir("", "proxeusAssets")
+	tmpDir, err := ioutil.TempDir("", "assets")
 	if err != nil {
 		panic(err)
 	}
