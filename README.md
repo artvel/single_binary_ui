@@ -1,5 +1,6 @@
 # Single Binary UI
 
+
 > ### Usage
 >> ```sh
 >># ./server --help

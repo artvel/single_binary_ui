@@ -140,4 +140,3 @@ var (
 		".eot":   "image/png",
 	}
 )
-

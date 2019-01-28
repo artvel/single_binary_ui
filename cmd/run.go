@@ -9,7 +9,7 @@ import (
 func Run() {
 	cmd := exec.Command("./ui_service", "-h", "0.0.0.0", "-p", "58082")
 	cmd.Stdout = os.Stdout
-	err := cmd.Start()//non blocking
+	err := cmd.Start() //non blocking
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -19,7 +19,7 @@ func Run() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	err = cmd2.Wait()//block
+	err = cmd2.Wait() //block
 	if err != nil {
 		log.Fatal(err)
 	}
